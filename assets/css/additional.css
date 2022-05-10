@@ -1,0 +1,102 @@
+body{
+  background-color: #ffffff;
+}
+
+
+@media (min-width: 300px) {
+  #mainNav.navbar-shrink {
+    /*padding-top: 30px;*/
+    padding-bottom: 10px;
+    border-bottom: 1px solid hsla(0,0%,100%,.3);
+    background: rgb(255,255,255);
+  }
+}
+
+
+@media (min-width:300px) {
+  #mainNav {
+    background-color: rgb(255,255,255);
+  }
+}
+
+@media (min-width: 768px) {
+  #mainNav {
+    background-color: rgba(255,255,255,0);
+  }
+}
+
+@media (min-width: 992px) {
+  #mainNav {
+    background-color: rgba(255,255,255,0);
+  }
+}
+
+#home-section2-p {
+  font-size: 1.1rem;
+  line-height: 27px;
+  text-align: left;
+}
+
+@media (min-width: 576px) {
+  #home-section2-p {
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: 1px;
+    text-align: center;
+  }
+}
+
+.mainNavNotHOM {
+  background-color: #ffffff;
+}
+
+::selection {
+  /*color: red;*/
+  background: rgba(132,184,231,0.75);
+}
+
+@media (max-width: 576px) {
+  #mobile-res-fromatwood {
+    padding-top: 20%;
+  }
+}
+
+#homebutton {
+  text-decoration: none;
+}
+
+
+.nav-link{
+color: #000000;
+background: transparent;
+border-style: none;
+}
+
+
+ul{
+  color: var(--bs-blue);
+  font-family: Raleway, sans-serif;
+  font-size: 12px;
+  color: #000000;
+  
+}
+
+ul li a span{
+  color: #000000;
+background: transparent;
+border-style: none;
+}
+
+ul li {
+  display: block;
+  padding: 0.5rem 1rem;
+}
+
+
+
+/* Contact Form CSS */
+#nf-form-2-cont{
+  font-size: 20px; 
+  color: #303030; 
+  font-family: Raleway, sans-serif;
+}
